@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageTags>FM Log log4netprovider</PackageTags>
+    <PackageAuthors>shanyuanlin</PackageAuthors>
+    <Version>0.2.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>shanyuanlin</Authors>
+    <Company>followme.com</Company>
+    <Product>dotnet/ms.extensions.logging.log4net extension</Product>
+    <Description>Microsoft.Extensions.Logging.Log4NetProvider</Description>
+    <RepositoryUrl>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</RepositoryUrl>
+    <PackageProjectUrl>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</PackageProjectUrl>
+    <Copyright>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+</Project>
