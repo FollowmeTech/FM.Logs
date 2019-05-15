@@ -25,12 +25,12 @@ namespace FM
             return factory;
         }
 
-        public static ILoggingBuilder AddLog4Net(ILoggingBuilder builder, string configPath)
+        public static ILoggingBuilder AddLog4Net(this ILoggingBuilder builder, string configPath)
         {
             return AddLog4Net(builder, LogLevel.Debug, configPath);
         }
 
-        public static ILoggingBuilder AddLog4Net(ILoggingBuilder builder, LogLevel minLevel, string configPath)
+        public static ILoggingBuilder AddLog4Net(this ILoggingBuilder builder, LogLevel minLevel, string configPath)
         {
             return AddLog4Net(builder, (_, logLevel) => logLevel >= minLevel, configPath);
         }
