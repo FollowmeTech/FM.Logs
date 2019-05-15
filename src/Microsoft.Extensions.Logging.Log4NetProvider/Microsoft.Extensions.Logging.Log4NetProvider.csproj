@@ -4,7 +4,7 @@
 
     <PackageTags>FM Log log4netprovider</PackageTags>
     <PackageAuthors>shanyuanlin</PackageAuthors>
-    <Version>0.2.3</Version>
+    <Version>0.2.4</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>shanyuanlin</Authors>
@@ -14,6 +14,7 @@
     <RepositoryUrl>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</RepositoryUrl>
     <PackageProjectUrl>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</PackageProjectUrl>
     <Copyright>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</Copyright>
+    <PackageId>FollomeTech.Logging.Log4NetProvider</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />
