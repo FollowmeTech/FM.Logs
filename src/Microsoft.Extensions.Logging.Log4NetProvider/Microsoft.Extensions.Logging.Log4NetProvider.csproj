@@ -14,7 +14,7 @@
     <RepositoryUrl>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</RepositoryUrl>
     <PackageProjectUrl>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</PackageProjectUrl>
     <Copyright>https://gitlab.followme.com/dotnet/Microsoft.Extensions.Logging.Log4NetProvider</Copyright>
-    <PackageId>FollomeTech.Logging.Log4NetProvider</PackageId>
+    <PackageId>FollowmeTech.Logging.Log4NetProvider</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />
